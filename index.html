@@ -25,6 +25,8 @@
             }
         }
     </script>
+    <!-- font awesome tag -->
+    <script src="https://kit.fontawesome.com/75d61032b0.js" crossorigin="anonymous"></script>
     <!-- fonts family inside the style tag -->
     <style>
         .font-Lato {
@@ -36,6 +38,147 @@
 
 <body class="Lato">
     <header>
+        <section class="navbar">
+            <!-- component -->
+            <!-- This is an example component -->
+            <div class="max-w-2xl mx-auto">
+
+                <nav class="border-gray-200 bg-pink-700 rounded-box mb-10">
+
+                    <div class="container mx-auto flex flex-wrap items-center justify-between">
+                        <!-- <a href="#" class="flex">
+
+                            <span class="self-center text-lg font-semibold whitespace-nowrap">FlowBite</span>
+                        </a> -->
+                        <div class="flex md:order-2">
+                            <div class="relative mr-3 md:mr-0 hidden md:block">
+                                <!-- <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                    <svg class="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </div> -->
+                                <input type="text" id="email-adress-icon"
+                                    class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2"
+                                    placeholder="Search here">
+
+                            </div>
+                            <button data-collapse-toggle="mobile-menu-3" type="button"
+                                class="md:hidden text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center"
+                                aria-controls="mobile-menu-3" aria-expanded="false">
+                                <span class="sr-only">Open main menu</span>
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </div>
+
+                    </div>
+                </nav>
+
+                <!-- <p class="mt-5">This navbar element is part of a larger, open-source library of Tailwind CSS components.
+                    Learn more by going to the official <a class="text-blue-600 hover:underline" href="#"
+                        target="_blank">Flowbite Documentation</a>.</p> -->
+            </div>
+
+            <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+            <!-- <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Item 1</a></li>
+                            <li>
+                                <a>Parent</a>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Item 3</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Item 1</a></li>
+                        <li tabindex="0">
+                            <details>
+                                <summary>Parent</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div> <a class="search"><input type="text" placeholder="search here "></a></div>
+
+                </div>
+            </div> -->
+        </section>
+
+
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="./images/banner1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="./images/banner2.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="./images/banner3.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="./images/banner4.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <!-- Centered Text and Button -->
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+                <h2 class="text-4xl font-bold text-white">Exotic tastes at your <br> doorstep</h2>
+                <p class="text-xl font-semibold text-white">We supply high quality organic products</p>
+                <button class="mt-4 px-6 py-2 text-white bg-blue-500 hover:bg-blue-600 rounded">Button</button>
+            </div>
+        </div>
+        </section>
 
     </header>
     <main>
